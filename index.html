@@ -25,39 +25,41 @@
   </head>
   <body>
     <header class="header">
-      <div class="container header-cont">
-        <nav class="nav">
-          <a class="nav-logo" href="./index.html"
-            >Web<span class="logo-style-header">Studio</span></a
+      <div class="container header-container">
+        <nav class="header-nav">
+          <a class="header-nav__logo" href="./index.html"
+            >Web<span class="header-nav__logo header-nav__logo--black">Studio</span></a
           >
 
-          <ul class="nav list">
-            <li class="nav-list-item">
-              <a class="nav-list-item link current" href="./index.html"> Студия </a>
+          <ul class="header-menu">
+            <li class="header-menu__item">
+              <a class="header-menu__link header-menu__link--current" href="./index.html">
+                Студия
+              </a>
             </li>
-            <li class="nav-list-item">
-              <a class="nav-list-item link" href="./porfolio.html">Портфолио</a>
+            <li class="header-menu__item">
+              <a class="header-menu__link" href="./porfolio.html">Портфолио</a>
             </li>
-            <li class="nav-list-item"><a class="nav-list-item link" href="">Контакты</a></li>
+            <li class="header-menu__item"><a class="header-menu__link" href="">Контакты</a></li>
           </ul>
         </nav>
 
-        <ul class="contacts list">
-          <li class="contact-list-item">
+        <ul class="header-contacts">
+          <li class="header-contacts__item">
             <a
-              class="contact-list-item link"
+              class="header-contacts__link"
               href="mailto:info@devstudio.com"
               title="Отправить письмо"
             >
-              <svg class="icon-contact" width="16" height="12">
+              <svg class="header-contacts__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li>
-            <a class="contact-list-item link" href="tel:+380961111111" title="Набрать номер">
-              <svg class="icon-contact" width="10" height="16">
+          <li class="header-contacts__item">
+            <a class="header-contacts__link" href="tel:+380961111111" title="Набрать номер">
+              <svg class="header-contacts__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -70,7 +72,7 @@
     <main>
       <!-- section hero -->
       <section class="hero">
-        <div class="container hero-cont">
+        <div class="container hero-container">
           <h1 class="headline">Эффективные решения для вашего бизнеса</h1>
           <button class="order btn" type="button" data-modal-open>Заказать услугу</button>
           <div class="backdrop is-hidden" data-modal>
